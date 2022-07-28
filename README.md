@@ -1,11 +1,11 @@
 # Jupyter In Docker 
 Python Flask App
 
-# Init:
-Install nvidia-docker-container and pull
+# Install nvidia-docker-container and pull
 ```bash
 docker pull tensorflow/tensorflow:latest-gpu-jupyter
 ```
+# Create venv
 ```bash
 python3 -m venv ./venv
 ```
